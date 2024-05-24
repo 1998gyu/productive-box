@@ -13,6 +13,7 @@ jobs:
       - name: Update gist
         uses: maxam2017/productive-box@master
         env:
+          TYPE : DAY
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: a77c25dd5f1641da54773aa3d36c21e0
-          TIMEZONE: Asia/Seoul
+          RECORDS : "2024-12-25 _ 크리스마스 | 2024-10-06 _ SQLD 시험"
